@@ -1,0 +1,129 @@
+*
+{
+ margin: 0%;
+ padding: 0%;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption, hgroup
+{
+ display: block;
+}
+
+#agrupar
+{
+ float: left;
+ width: 100%;
+ margin: 1% auto;
+}
+
+#cabecera
+{
+ float: left;
+ width: 98%;
+ padding: 1%;
+ background: #FFFBB9;
+}
+
+#menu
+{
+ float: left;
+ width: 98%;
+ padding: 1%;
+ background: #CCCCCC;
+}
+ 
+#menu li
+{
+ display: inline-block;
+ list-style: none;
+ margin: 0% 0% 0% 1%;
+ font: bold 14px verdana, sans serif;
+}
+
+#seccion
+{
+ float: left;
+ width: 67%;
+ margin: 1%;
+}
+ 
+#columna
+{
+ float: left;
+ width: 27%;
+ margin: 1%;
+ padding: 1%;
+ background: #CCFFCC;
+} 
+
+#pie{
+float: left;
+width: 100%;
+text-align: center;
+border-top: 1px solid #999999;
+}
+
+.texto2{
+color: red;
+}
+
+article{
+float: left;
+width: 100%;
+background: #739CBF;
+border: 1px solid #999999;
+padding: 1%;
+margin-bottom: 1%;
+}
+
+img{
+max-width: 100%;
+border: 0%;
+}
+
+article footer{
+text-align: center;
+border-top: 1px solid #999999; 
+}
+
+time{
+color: blue;
+}
+
+figcaption{
+font: italic 14px verdana, sans-serif;
+}
+
+p{
+font-size: 12px;
+}
+
+h1{
+font: bold 20px verdana, sans-serif;
+margin: 1%;
+}
+
+h2{
+font: bold 18px verdana, sans-serif;
+margin: 1%;
+}
+
+h3{
+font: bold 16px verdana, sans-serif;
+margin: 1%;
+}
+
+h4{
+font: bold 14px verdana, sans-serif;
+margin: 1%;
+}
+
+.campo{
+ margin: 1% 1% 0% 1&;
+ float: left;
+ width: 98%;
+}
+
+
+
+

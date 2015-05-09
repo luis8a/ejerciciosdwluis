@@ -1,0 +1,110 @@
+*
+{
+ margin: 0%;
+ padding: 0%;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption, hgroup
+{
+ display: block;
+}
+
+#agrupar
+{
+ margin: 1% 0%;
+}
+
+#cabecera
+{
+ padding: 1% 0% 1% 0%;
+ background: #FFFBB9;
+}
+
+#menu
+{
+ padding: 1% 0% 1% 0%;
+ background: #CCCCCC;
+}
+ 
+#menu li
+{
+ list-style: none;
+ margin: 0% 0% 0% 0%;
+ font: bold verdana, sans serif;
+}
+
+#seccion
+{
+ margin: 1% 0% 1% 0%;
+}
+ 
+#columna
+{
+ margin: 1% 0% 1% 0%;
+ padding: 1% 0% 1% 0%;
+ background: #CCFFCC;
+} 
+
+#pie{
+text-align: center;
+border-top: 1px solid #999999;
+}
+
+.texto2{
+color: red;
+}
+
+article{
+background: #739CBF;
+border: 1px solid #999999;
+padding: 1% 0% 1% 0%;
+margin-bottom: 1%;
+}
+
+img{
+max-width: 100%;
+border: 0%;
+}
+
+article footer{
+text-align: center;
+border-top: 1px solid #999999; 
+}
+
+time{
+color: blue;
+}
+
+figcaption{
+font: italic verdana, sans-serif;
+}
+
+p{
+
+}
+
+h1{
+font: bold verdana, sans-serif;
+margin: 1%;
+}
+
+h2{
+font: bold verdana, sans-serif;
+margin: 1%;
+}
+
+h3{
+font: bold verdana, sans-serif;
+margin: 1%;
+}
+
+h4{
+font: bold verdana, sans-serif;
+margin: 1%;
+}
+
+.campo{
+ margin: 1% 1% 0% 1&;
+ float: left;
+ width: 98%;
+}
