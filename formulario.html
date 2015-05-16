@@ -14,9 +14,64 @@
     </head>
 	<body>
 		<section>
-			<form name="miformulaio" id="miformulaio" method="get">
-				<p class="campo">Nombre: <input type="text" name="minombre" id="minombre"></p>
-				<p class="email">Email: <input type="email" name="micorreo" id="micorreo"></p>
+			<form name="miformulario" id="miformulario" method="get">
+				
+				<p class="etiqueta">Nombre:* </p>
+				<p class="campo"><input type="text" name="minombre" id="minombre" required></p>
+				
+				<p class="etiqueta">Email:* </p>
+				<p class="campo"><input type="email" name="micorreo" id="micorreo" multiple required></p>
+				
+				<p class="etiqueta">Clave:* </p>
+				<p class="campo"><input type="password" name="miclave" id="miclave" required></p>
+				
+				<p class="etiqueta">Búsqueda: </p>
+				<p class="campo"><input type="search" name="mibusqueda" id="mibusqueda" placeholder="Escriba su Busqueda"></p>
+				
+				<p class="etiqueta">URL: </p>
+				<p class="campo"><input type="url" name="miurl" id="miurl" autofocus></p>
+				
+				<datalist id="informacion">
+					<option value="0426-4568422" label="Telefono 1">
+					<option value="0424-4568877" label="Telefono 2">
+				</datalist>	
+				
+				<p class="etiqueta">Telefono: </p>
+				<p class="campo"><input type="tel" name="mitelefono" id="mitelefono" list="informacion"></p>
+				
+				<p class="etiqueta">Numero: </p>
+				<p class="campo"><input type="number" name="minumero" id="minumero" min="10" max="100" step="5">
+				
+				<p class="etiqueta">Rango: </p>
+				<p class="campo"><input type="range" name="mirango" id="mirango" min="0" max="50" step="5"></p>
+				
+				<p class="etiqueta">Fecha </p>
+				<p class="campo"><input type="date" name="mifecha" id="mifecha"></p>
+				
+				<p class="etiqueta">Semana: </p>
+				<p class="campo"><input type="week" name="misemana" id="misemana"></p>
+				
+				<p class="etiqueta">Mes: </p>
+				<p class="campo"><input type="month" name="mimes" id="mimes"></p>
+				
+				<p class="etiqueta">Hora: </p>
+				<p class="campo"><input type="time" name="mihora" id="mihora"></p>
+				
+				<p class="etiqueta">Hora UTC: </p>
+				<p class="campo"><input type="datetime" name="mihorautc" id="mihorautc"></p>
+				
+				<p class="etiqueta">Hora Local: </p>
+				<p class="campo"><input type="datetime-local" name="mihoralocal" id="mihoralocal"></p>
+				
+				<p class="etiqueta">Color: </p>
+				<p class="campo"><input type="color" name="micolor" id="micolor"></p>
+				
+				<p class="etiqueta">Comentarios: </p>
+				<p class="campo"><textarea name="micomentario" id="micomentario" cols="50" rows="10"></textarea></p>
+				
+				<p class="etiqueta">Código Postal: </p>
+				<p class="campo"><input pattern="[0-9]{5}" name="codigopostal" id="codigopostal" title="Por favor inserte los 5 numeros de su código postal"></p>								
+				
 				<p class="campo"><input type="submit" value="enviar"></p>
 			</form>
 		</section>
