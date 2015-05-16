@@ -118,11 +118,24 @@ font: bold 14px verdana, sans-serif;
 margin: 1%;
 }
 
-.campo{
- margin: 1% 1% 0% 1&;
+#miformulario {
+ margin: 1%;
+ padding: 1%;
+ width: 96%;
+}
+
+.etiqueta {
+ margin: 0% 1%;
  float: left;
  width: 98%;
 }
+
+.campo {
+ margin: 0% 1% 1% 1%;
+ float: left;
+ width: 98%;
+}
+
 
 
 
